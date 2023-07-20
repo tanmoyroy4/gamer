@@ -1,5 +1,4 @@
 
-
 .body{
     margin: 0PX auto;
     
@@ -115,6 +114,7 @@ nav a {
     background: #4EC5F7;
 
 }
+
 .picture{
     margin-right: 100px;  
 }
@@ -161,13 +161,68 @@ nav a {
     font-size: 25px;
 }
 
+
+.section-cont{
+    max-width: 1040px;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sec-tit{
+    color: #0B0223;
+    font-size: 48px;
+    
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.section-description{
+    color: #534C64;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+
+.pla{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s-images{
+    position: relative;
+    
+}
+
+.s-imagea{
+    width: 634px;
+}
+
+.instantly-image2{
+    width: 318px;
+    position: absolute;
+    bottom: -50px;
+    left: -80px;
+}
+
+.s-img{
+    border-radius: 8px;
+    border: 10px solid #FFF;
+}
+
 .spor-img{
     margin-top: 120px;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-evenly;
-    
-    
+       
 }
 .footer-li{
     margin-top: 300px;
@@ -179,16 +234,14 @@ nav a {
 }
 footer>div>a{
     text-decoration: none;
-    gap: 30px;
-    
+    gap: 30px;   
 }
 
 .m{
-    width: 249px;
+   width: 249px;
    height: 69px;
    border-radius: 50px;
    display: flex;
-
 }
 
 .p{
@@ -251,8 +304,6 @@ div>a>{
     display: flex;
 }
 
-
-
 .footer-list{
     margin-top: 70px;
     font-size: 20px;
@@ -281,8 +332,6 @@ div>a>{
     color: white;
 }
     
-
-
 .icon{
     margin-top: 70px;
     display: flex;
@@ -313,10 +362,3 @@ div>a>{
     color: white;
    
 }
-
-
-
-
-
-
-
